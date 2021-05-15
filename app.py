@@ -3,7 +3,7 @@ from model import predict_yield
 import numpy as np
 
 st.set_page_config(page_title="Wild Blueberry Yield Prediction App",
-                   page_icon="🍇")
+                   page_icon="🍇", layout="wide")
 
 col1, col2 = st.beta_columns([3,5])
 # ['clonesize', 'honeybee', 'osmia', 'MinOfUpperTRange', 
